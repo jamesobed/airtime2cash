@@ -33,6 +33,7 @@ const InputAlert = ({ innerRef, setClose, transactionDetails, rowData }) => {
     setClose(false);
   };
 
+  // log the value of the input
   const handleChange = (e) => {  
     setTransact({ 
       ...transact, 
